@@ -1,0 +1,53 @@
+.header-1 {
+     background:#252323;
+     height: 58px;   
+}
+.fullscreen-animation {
+     position: fixed;
+     top: 104;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     background: linear-gradient(45deg, #252323, #252323,#252323,#252323);
+     background-size: 100% 100%;
+     animation: fullscreenGradient 50s ease infinite;
+ }
+ 
+ @keyframes fullscreenGradient {
+     0% {
+         background-position: 0% 10%;
+     }
+     50% {
+         background-position: 100% 10%;
+     }
+     100% {
+         background-position: 0% 10%;
+     }
+ }
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: boder-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+button{
+    color: #824EE8;
+    background: transparent;
+    border: solid 1px #824EE8;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #824EE8;
+    color: #fff;
+    transition: 0.5;
+}
+ 
+
+     

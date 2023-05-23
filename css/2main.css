@@ -1,0 +1,217 @@
+  @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+*{
+    margin: 0;
+    padding: 2;
+    box-sizing: boder-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(#252323);
+}
+   
+
+.menu-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+ 
+}
+
+.cabecalho-imagem {
+ height: 80px;
+}
+
+.deficiente-gamb2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 700px;
+}
+.sala-de-aula {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+}
+
+.conteudo-principal-imagem {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50, -50%);
+    
+
+}
+
+.cabeçalho-menu {
+    display: flex;
+    gap:32px;
+    cursor: pointer;
+    color: #824EE8;
+    transition: 0.5;
+}
+    
+.cabeçalho-menu-item {
+    display: flex;
+    font-family:"PT Sans Narrow",sans-serif;
+    color: #fff;
+    font-weight: 20;
+    font-size: 18;
+   
+}
+h5 {
+    display: flex;
+    font-family:'Roboto Mono', monospace;
+    color: #824EE8;
+    justify-content: center;
+    font-weight: 20;
+    font-size: 20;
+    padding: 2px;
+    height: 350px;
+    
+}
+h6 {
+    display: flex;
+    font-family:"PT Sans Narrow",sans-serif;
+    color: #ffffff;
+    justify-content: center;
+    font-weight: 20;
+    font-size: 20; 
+    padding: 100px;
+    padding-right: 200px;
+    height: 200px;
+}
+
+h4 {
+    display: flex;
+    font-family:"PT Sans Narrow",sans-serif;
+     color: #824EE8;
+    font-weight: 20;
+    font-size: 10;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 2px;
+    padding-left: 20px;
+    height: 80px;
+}
+
+.conteudo-principal1 {
+    display: flex;
+    font-family:"PT Sans Narrow",sans-serif;
+    color: #fff;
+    font-weight: 20;
+    font-size: 18;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 200px;
+    height: 1000px;
+}
+
+.conteudo-principal2 {
+    display: flex;
+    font-family:"PT Sans Narrow",sans-serif;
+    color: #fff;
+    font-weight: 20;
+    font-size: 18;
+    padding: 2px;
+}
+   
+
+.conteudo1 {
+    display: flex;
+    gap: 32px;
+  
+}
+
+.conteudo-principal {
+    display: flex;
+    font-family:"PT Sans Narrow",sans-serif;
+    color: #fff;
+    font-weight: 20;
+    font-size: 18;
+    padding: 100px;
+    height: 100px;
+
+}
+
+button{
+    color: #824EE8;
+    background: transparent;
+    border: solid 1px #824EE8;
+    padding: 5px;
+    border-radius: 15px;
+    font-size: 12px;
+    width: 150px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #824EE8;
+    color: #fff;
+    transition: 0.5;
+}
+
+.conteudo-principal-escrito-titulo {
+    display: flex;
+    font-family:"PT Sans Narrow",sans-serif;
+    color: #fff;
+    font-weight: 15;
+    font-size: 35;
+
+}
+.conteudo-principal-escrito-titulo2 {
+    display: flex;
+    font-family:'Roboto Mono', monospace;
+    color: #824EE8;
+    font-weight: 10;
+    font-size: 30;
+
+}
+
+.redes-sociais {
+    position: absolute;
+    top: 20%;
+    transform: translate(-50%);
+    display: flex;
+    right: 5px;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+.cabecalho-imagem:hover{
+    transform: scale(1.1);
+}
+.conteudo-principal-imagem:hover {
+    transform: scale(1.02);
+}
+.deficiente-gamb2:hover {
+    transform: scale(1.02);
+}
+.cabeçalho-menu::after {
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 0%;
+  height: 3px;
+  background: linear-gradient(to left, #fff, #824EE8);
+} 
+
+@keyframes inicializar {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
